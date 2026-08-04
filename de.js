@@ -25,28 +25,30 @@
 
 // 
 
-const data = {
-    user: {
-        name: "Rahat",
-        skills: ["HTML", "CSS", "JavaScript"],
-        address: {
-            city: "Dhaka",
-            zip: 1207
-        }
-    }
-};
-const{
-    user:{
-        name,
-        skills:[a, ,c],
-        address:{
-            city,
-            zip
-        }
-    }
-}=data;
-console.log(name)
-console.log(a)
-console.log(c)
-console.log(city)
-console.log(zip)
+// const data = {
+//     user: {
+//         name: "Rahat",
+//         skills: ["HTML", "CSS", "JavaScript"],
+//         address: {
+//             city: "Dhaka",
+//             zip: 1207
+//         }
+//     }
+// };
+// const{
+//     user:{
+//         name,
+//         skills:[a, ,c],
+//         address:{
+//             city,
+//             zip
+//         }
+//     }
+// }=data;
+// console.log(name)
+// console.log(a)
+// console.log(c)
+// console.log(city)
+// console.log(zip)
+
+
