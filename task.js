@@ -73,12 +73,45 @@
 // console.log(nextId());
 // console.log(nextId());
 
+// problem-7
 
-const  sortByPriceAscending=(products)=>{
-const sort=products.sort((a,b)=>a.price-b.price);
-return sort;
-}
+// const  sortByPriceAscending=(products)=>{
+// const sort=products.sort((a,b)=>a.price-b.price);
+// return sort;
+// }
 
 
-console.log(sortByPriceAscending([{ name: "Bag", price: 500 }, { name: "Pen", price: 10 }, { name: "Notebook", price: 60 }] 
-));
+// console.log(sortByPriceAscending([{ name: "Bag", price: 500 }, { name: "Pen", price: 10 }, { name: "Notebook", price: 60 }] 
+// ));
+
+// problem-8
+
+// const  applyBonusPoints=(users, bonus)=>{
+//       return users.map(user => ({
+//     ...user,
+//     points: user.points + bonus
+//   }));
+// };
+
+// const users1 = [{ name: "Rafi", points: 20 }] ;
+
+// console.log(applyBonusPoints(users1,5));
+// console.log(users1);
+
+// problem-9
+
+// const isStrictMatch=(input, target)=>{
+// const result=input===target?true : false;
+// return result;
+// }
+
+// console.log(isStrictMatch("18", 18) );
+// console.log(isStrictMatch(18, 18) );
+
+
+
+
+
+
+
+
