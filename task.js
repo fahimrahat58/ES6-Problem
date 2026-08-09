@@ -22,9 +22,7 @@
 // problem-3
 
 // const findProductByName=(products,name)=>{
-// if(!products.name===name){
-//     return 'Undefined';
-// }
+// 
 // const result=products.find(product=>product.name===name?true:false);
 // return result;
 
@@ -107,6 +105,36 @@
 
 // console.log(isStrictMatch("18", 18) );
 // console.log(isStrictMatch(18, 18) );
+
+
+// problem-10
+
+// const shopping=[
+//   { category: "electronics", quantity: 2 },
+//   { category: "fashion", quantity: 5 },
+//   { category: "electronics", quantity: 4 },
+//   { category: "books", quantity: 7 }
+// ];
+
+// const shoppingList=list=>{
+// const result=list.reduce((sum,num)=>{
+//     if(sum[num.category]){
+//       sum[num.category]+=num.quantity;
+//     }else{
+//         sum[num.category]=num.quantity;
+//     }
+//     return sum;
+// },{});
+
+// const highest = Object.entries(result).reduce((max, current) => {
+//         return current[1] > max[1] ? current : max;
+//     });
+
+//     return highest[0];
+
+// };
+
+// console.log(shoppingList(shopping));
 
 
 

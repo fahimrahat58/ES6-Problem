@@ -84,19 +84,23 @@
  
 // problem-6
 
-const countS="Great session today @rafi @sadia @karim"
+// const countS="Great session today @rafi @sadia @karim"
 
-const countMention=(caption)=>{
-    const result=caption.split(' ');
-    const filtered=result.filter(elem=>elem.startsWith("@"));
-    let largest=filtered[0];
-    filtered.forEach(element => {
-        if(element.length>largest.length){
-           largest=element; 
-            
-        }
-    });
+// const countMention=(caption)=>{
     
-return largest;
-}
-console.log(countMention(countS));
+//     const result= caption.split(" ");
+//     const result2=result.filter(elem=>elem.startsWith("@"));
+//     let largest="";
+//     result2.forEach(element => {
+//         if(element.length>largest.length){
+//             largest=element;
+//         }
+//     });
+//    return {
+//     mentionCount:result2.length,
+//     longestMention:largest
+//    };
+// };
+// console.log(countMention(countS));
+// console.log(countMention('Great session today'));
+
